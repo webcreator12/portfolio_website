@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #fff;
+}
+header{
+    display: flex;
+    margin: auto;
+    width: 1200px;   
+    position:relative;
+    padding: 20px 0px;
+}
+header a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+header ul{
+    position: absolute;
+    right: 120px;
+}
+header ul li{
+    display: inline-block;
+    padding: 10px;
+    margin:0px 10px;
+    font-weight: bold;
+}
+header button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(122, 122, 122);
+    background: #fff;
+    position: absolute;
+    right: 0;
+}
+section{
+    margin: auto;
+    width: 1200px;   
+    padding: 20px 0px;
+}
+section h1{
+    margin-top: 84px;
+    font-size: 68px;
+    width: 268px;
+    font-family:monospace;
+    text-transform: capitalize;
+}
+section p{
+    width: 260px;
+    color: rgb(160, 160, 160);
+    margin: 20px 0px;
+}
+section button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(122, 122, 122);
+    background: #fff;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(100, 100, 100);
+    color:#fff;
+}
+button.active{
+    background: #000;
+    color: #fff;
+}
+h4{
+    margin-top: 120px;
+    font-size: 26px;
+}
+section img{
+    float: right;
+    width: 600px;
+    height: 600px;
+    margin-top: 30px;
+}
